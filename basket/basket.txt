@@ -1,0 +1,8 @@
+          <a class="header__basket" href="">
+            <div class="header__basket-icon">
+              <svg class="header__svg header__svg--width" width="24" height="24" aria-label="Іконка кошика">
+                <use href="./images/icons/icons.svg#basket"></use>
+              </svg>
+              <span>10</span>
+            </div>
+          </a>

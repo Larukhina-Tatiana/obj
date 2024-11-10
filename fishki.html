@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- Табы -->
+  <details>
+    <summary>Магазин1</summary>
+    <p>flhtcc</p>
+  </details>
+
+  <!-- Скрытие  заголовков -->
+  <h2 hidden>Заголовок</h2>
+
+
+  <!-- Прогресс бар -->
+  <label for="pro">Прогресс</label>
+  <progress id="pro" value="30" max="100"></progress>
+
+  <!-- Редактирование текста -->
+  <p contenteditable="true">Текст</p>
+
+  <!-- Автоподсказка select -->
+  <input type="text" list="city">
+  <datalist id="city">
+    <option value="Киев" </option>
+    <option value="Николаев" </option>
+    <option value="Херсон" </option>
+  </datalist>
+
+
+  <picture>
+    <source type="image/avif"
+      srcset="/image.avif?width=100 100w, /image.avif?width=200 200w, /image.avif?width=400 400w, /image.avif?width=800 800w, ...">
+    <source type="image/webp"
+      srcset="/image.webp?width=100 100w, /image.webp?width=200 200w, /image.webp?width=400 400w, /image.webp?width=800 800w, ...">
+    <img ...>
+  </picture>
+
+
+  font-size: clamp(8.13rem, calc(7.25rem + 4.38vw), 12.5rem);
+
+
+
+  <img loading="lazy">
+  <!--
+    ul.products__list>li.products__item*4>div.products__wrapp>img.products__item-img[src=images/products-$.jpg]+p.products__item-price{10$}+h3.title-h3+p.products__item-text+button.products__button-button{Купити}
+  -->
+
+
+
+
+  <!-- let currentDate = new Date();
+console.log(currentDate.getFullYear());
+console.log(currentDate.getMonth());
+console.log(currentDate.getDate());
+console.log(currentDate.getHours());
+console.log(currentDate.getMinutes());
+console.log(currentDate.getSeconds()); -->
+
+  // @media (any-hover: hover) {
+  // &:hover {
+  // color: var(--accent);
+  // }
+  // }
+
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+.reviews-section {
+  padding-top: 140px;
+  font-weight: 500;
+
+}
+
+.reviews {
+
+
+
+  &-list {
+    display: flex;
+    margin-bottom: 91px;
+  }
+
+  &-header {
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &-avatar {
+    border-radius: 100%;
+    margin-bottom: 12px;
+  }
+
+  &-author {
+    font-family: var(--font-family);
+    font-size: 18px;
+    text-transform: capitalize;
+    color: $accent;
+    margin-bottom: 5px;
+  }
+
+  &-date {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: rgba(18, 18, 18, 0.75);
+  }
+
+  .stars {
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
+  }
+
+  &-body {
+    max-width: 318px;
+    width: 100%;
+  }
+}

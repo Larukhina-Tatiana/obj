@@ -1,0 +1,9 @@
+.dotts {
+  display: grid;
+  grid-auto-flow: column;
+  gap: rem(17);
+  justify-content: center;
+  transform: translate(0, 10%);
+  margin: 0 auto;
+  overflow: hidden;
+}

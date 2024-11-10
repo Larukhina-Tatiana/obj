@@ -1,0 +1,55 @@
+﻿.display {
+  display: none;
+  animation: opac .7s;
+}
+
+
+// :hover + .name Ховер у блищайшего соседа
+// :hover ~ .name Ховер у соседей
+:hover {
+  display: block;
+}
+
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+// Выделение текста цветом при выделении))
+::selection {
+  background-color: maroon;
+}
+
+// черно-белый фильтр
+div:hover {
+  filter: grayscale(0);
+}
+
+//  aspect-ratio: 16/9, 4/3
+
+li::marker {
+  color: gray;
+  content: "!!!";
+
+  // counter-increment: p;
+  // content: counter(name);
+}
+
+ :focus-within
+ :focus-visible фокус по таб
+
+      backdrop-filter: blur(8px);
+      background: rgba(255, 255, 255, 0.15);
+
+
+
+Одновременно нескольким 
+
+:where (.about, .promo, .reviews) h2{
+	text-align: center;
+}

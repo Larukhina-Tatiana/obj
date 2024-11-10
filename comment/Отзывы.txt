@@ -1,0 +1,30 @@
+<article class="reviews" role="comment">
+        <header class="reviews-header">
+          <img class="reviews-avatar" src="image/png"
+            srcset="./images/reviews/avatar1@1x.png 1x, ./images/reviews/avatar1@2x.png 2x" width="45" height="45"
+            loading="lazy" decoding="async" alt="Аватар">
+          <h4 class="reviews-author">Maksym</h4>
+          <time class="reviews-date" datetime="2024-05-04">24 мая 2024</time>
+        </header>
+        <div class="reviews-body">
+          <div class="stars">
+            <div class="stars-inner">
+              <span class="stars-num">4.8</span>
+              <ul class="stars-list">
+                <li class="stars-item"></li>
+                <li class="stars-item"></li>
+                <li class="stars-item"></li>
+                <li class="stars-item"></li>
+                <li class="stars-item"></li>
+              </ul>
+            </div>
+          </div>
+          <p class="reviews-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua.
+          </p>
+      </article>
+
+Цитаты
+

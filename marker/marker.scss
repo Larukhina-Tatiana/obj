@@ -1,0 +1,7 @@
+.test p {
+  display: list-item;
+}
+
+.test p::marker {
+  content: 'какой-то значок';
+}
